@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" type="text/css" href="pomodoro.css">
+</head>
+<body>
+
+  <div class="main"></div>
+  <div class="space">
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+  <div id="wrapper" class="mybox">
+      <h1>Pomodoro Timer</h1>
+      <div id="timer-container">
+        <div id="timer"></div>
+        <button class="glow-on-hover" onclick="resetTimer()">Reset</button>
+        <button class="glow-on-hover" onclick="changeDefaultTime()">Change Default Time</button>
+        
+      </div>
+  </div>
+  
+
+  <script src="pomodoro.js"></script>
+</body>
+</html>
